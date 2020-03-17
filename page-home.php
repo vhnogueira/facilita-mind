@@ -67,10 +67,10 @@ get_header(); ?>
                 <div class="col-lg-4 mb-4 mb-lg-0">
                     <div class="thumbnail">
                         <div class="caption">
+                            <?php $icon = get_field('icone'); ?>
+                            <?php echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto icon-servicos" ) );  ?>
                             <?php the_title( '<h2 class="text-white lato h4 text-uppercase">', '</h2>' ); ?>
                             <?php the_field('subtitulo'); ?>
-                            <?php $icon = get_field('icone'); ?>
-                            <?php echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
                             <!-- <h4>Thumbnail Headline</h4>
                             <p>short thumbnail description</p>
                             <p><a href="" class="label label-danger" rel="tooltip" title="Zoom">Zoom</a>
