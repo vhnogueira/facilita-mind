@@ -69,7 +69,8 @@ get_header(); ?>
                     <?php the_title(); ?>
 
                     <?php the_field('subtitulo'); ?>
-                    <?php the_field('icone'); ?>
+                    <?php $image = get_field('icone'); ?>
+                    <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto", "style" => "border-radius: 50px 0;" ) );  ?>
                     <?php the_field('texto_botao'); ?>
                     <?php $image = get_field('imagem'); ?>
                     <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto", "style" => "border-radius: 50px 0;" ) );  ?>
