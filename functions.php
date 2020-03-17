@@ -43,3 +43,8 @@ if( function_exists('acf_add_options_page') ) {
 	));
 	
 }
+
+function register_footer_menu() {
+register_nav_menu('secondary',__( 'Menu Rodapé' ));
+}
+add_action( 'init', 'register_footer_menu' );
