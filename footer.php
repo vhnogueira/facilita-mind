@@ -26,9 +26,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<footer class="site-footer" id="colophon">
 					
 					<div class="text-center">
-						<a href="<?php the_field('link_facebook', 'option')?>"><i class="fa fa-facebook text-light mx-1"></i></a>
-						<a href="<?php the_field('link_instagram', 'option')?>"><i class="fa fa-instagram text-light mx-1"></i></a>
-						<a href="<?php the_field('link_linkedin', 'option')?>"><i class="fa fa-linkedin text-light mx-1"></i></a>
+						<a href="<?php the_field('link_facebook', 'option')?>" target="_blank"><i class="fa fa-facebook text-light mx-1"></i></a>
+						<a href="<?php the_field('link_instagram', 'option')?>" target="_blank"><i class="fa fa-instagram text-light mx-1"></i></a>
+						<a href="<?php the_field('link_linkedin', 'option')?>" target="_blank"><i class="fa fa-linkedin text-light mx-1"></i></a>
 					</div>
 
 				</footer><!-- #colophon -->

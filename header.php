@@ -31,9 +31,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
 		<div class="text-right container">
-			<a href="<?php the_field('link_facebook', 'option')?>"><i class="fa fa-facebook text-primary mx-1"></i></a>
-			<a href="<?php the_field('link_instagram', 'option')?>"><i class="fa fa-instagram text-primary mx-1"></i></a>
-			<a href="<?php the_field('link_linkedin', 'option')?>"><i class="fa fa-linkedin text-primary mx-1"></i></a>
+			<a href="<?php the_field('link_facebook', 'option')?>" target="_blank"><i class="fa fa-facebook text-primary mx-1"></i></a>
+			<a href="<?php the_field('link_instagram', 'option')?>" target="_blank"><i class="fa fa-instagram text-primary mx-1"></i></a>
+			<a href="<?php the_field('link_linkedin', 'option')?>" target="_blank"><i class="fa fa-linkedin text-primary mx-1"></i></a>
 		</div>
 
 			<!-- Your site title as branding in the menu -->

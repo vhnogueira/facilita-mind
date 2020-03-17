@@ -41,6 +41,7 @@ get_header(); ?>
 <div class="py-5 bg-light" id="home-3">
     <div class="container">
         <p class="h1 text-uppercase text-center">Cadastre-se para receber todos os conteúdos</p>
+        <?php echo do_shortcode('[contact-form-7 id="40" title="Newsletter"]'); ?>
     </div>
 </div>
 
@@ -50,13 +51,13 @@ get_header(); ?>
         <p class="h1 text-uppercase text-center">Como posso te ajudar</p>
         <div class="row">
             <div class="col-md-4">
-            
+
             </div>
             <div class="col-md-4">
-            
+
             </div>
             <div class="col-md-4">
-            
+                
             </div>
         </div>
     </div>
@@ -75,8 +76,10 @@ get_header(); ?>
         <p class="h1 text-uppercase text-center">O que falam de mim</p>
         <div class="row">
         <div class="col-md-4">
+            <a href="<?php the_field('link_linkedin', 'option'); ?>" class="btn btn-primary"><i class="fa fa-linkedin fa-2x"></i></a>
         </div>
         <div class="col-md-8">
+            <?php echo wp_get_attachment_image( '41', 'full', "", array( "class" => "img-fluid" ) );  ?>
         </div>
         </div>
     </div>
