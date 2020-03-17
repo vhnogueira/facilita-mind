@@ -24,12 +24,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-md-12">
 
 				<footer class="site-footer" id="colophon">
-
-					<div class="site-info">
-
-						
-
-					</div><!-- .site-info -->
+					
+					<div class="text-center">
+						<a href="<?php the_field('link_facebook', 'option')?>"><i class="fa fa-facebook text-primary"></i></a>
+						<a href="<?php the_field('link_instagram', 'option')?>"><i class="fa fa-instagram text-primary"></i></a>
+						<a href="<?php the_field('link_linkedin', 'option')?>"><i class="fa fa-linkedin text-primary"></i></a>
+					</div>
 
 				</footer><!-- #colophon -->
 
