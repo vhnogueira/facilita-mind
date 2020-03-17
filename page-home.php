@@ -27,12 +27,12 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="col-md-5 text-light lead">
-                <?php the_field('text_banner') ?>
+                <?php echo wp_get_attachment_image( '47', 'full', "", array( "class" => "img-fluid mx-auto d-block" ) );  ?>    
             </div>
             <div class="col-md-5 text-light lead">
                 <p class="h2">SOBRE MIM</p>
                 <p class="h3">JULIANA AMARAL</p>
-                <p><?php the_field('text_sobre') ?></p>
+                <?php the_field('text_sobre') ?>
             </div>  
         </div>
     </div>
