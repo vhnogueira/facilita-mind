@@ -15,7 +15,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-<div class="wrapper" id="wrapper-footer">
+<div class="wrapper bg-primary text-light" id="wrapper-footer">
 
 	<div class="<?php echo esc_attr( $container ); ?>">
 
@@ -27,7 +27,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="site-info">
 
-						<?php understrap_site_info(); ?>
+						
 
 					</div><!-- .site-info -->
 
