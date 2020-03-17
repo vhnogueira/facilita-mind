@@ -80,9 +80,9 @@ get_header(); ?>
         <div class="col-md-4">
             <a href="<?php the_field('link_linkedin', 'option'); ?>" class="btn btn-primary" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 text-center">
             <a href="<?php the_field('link_linkedin', 'option'); ?>" target="_blank">
-                <?php echo wp_get_attachment_image( '41', 'full', "", array( "class" => "img-fluid mx-auto d-block" ) );  ?>
+                <?php echo wp_get_attachment_image( '41', 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
             </a>
         </div>
         </div>
