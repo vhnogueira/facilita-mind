@@ -69,7 +69,12 @@ get_header(); ?>
                     <?php $image = get_field('imagem'); ?>
                     <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto thumb-servicos" ) );  ?>
 
-                    <?php the_title( '<h2>', '</h2>' ); ?>
+                    <div class="carousel-caption">
+                        <?php the_title( '<h2>', '</h2>' ); ?>
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+
 
                     <?php the_field('subtitulo'); ?>
                     <?php $icon = get_field('icone'); ?>
