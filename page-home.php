@@ -65,11 +65,12 @@ get_header(); ?>
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
                 <div class="col-md-4">
+                    
+                    <?php $image = get_field('imagem'); ?>
+                    <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto thumb-servicos" ) );  ?>
 
                     <?php the_title(); ?>
 
-                    <?php $image = get_field('imagem'); ?>
-                    <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto thumb-servicos" ) );  ?>
                     <?php the_field('subtitulo'); ?>
                     <?php $icon = get_field('icone'); ?>
                     <?php echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
