@@ -68,12 +68,12 @@ get_header(); ?>
 
                     <?php the_title(); ?>
 
+                    <?php $image = get_field('imagem'); ?>
+                    <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
                     <?php the_field('subtitulo'); ?>
                     <?php $icon = get_field('icone'); ?>
                     <?php echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
                     <?php the_field('texto_botao'); ?>
-                    <?php $image = get_field('imagem'); ?>
-                    <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
 
                 </div>
 
