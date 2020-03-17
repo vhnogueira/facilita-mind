@@ -66,20 +66,29 @@ get_header(); ?>
 
                 <div class="col-md-4">
 
-                    <?php $image = get_field('imagem'); ?>
-                    <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto thumb-servicos" ) );  ?>
+                    <div class="container-servico">
+
+                        <?php $image = get_field('imagem'); ?>
+                        <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto thumb-servicos" ) );  ?>
+
+                        <div class="content-servico">
+
+                            <?php the_title( '<h2 class="text-white text-uppercase>', '</h2>' ); ?>
+                            <?php $icon = get_field('icone'); ?>
+                            <?php echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
+                            <?php the_field('texto_botao'); ?>
+
+                        </div>
+
+                    </div>
 
                     <div class="carousel-caption">
-                        <?php the_title( '<h2>', '</h2>' ); ?>
                         <h5>Second slide label</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
 
 
                     <?php the_field('subtitulo'); ?>
-                    <?php $icon = get_field('icone'); ?>
-                    <?php echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
-                    <?php the_field('texto_botao'); ?>
 
                 </div>
 
