@@ -51,7 +51,7 @@ get_header(); ?>
 <div class="py-5 bg-danger" id="home-4">
     <div class="container">
         <p class="h1 text-uppercase text-center mb-4">Como posso te ajudar</p>
-        <div class="row align-items-center">
+        <div class="row">
             
             <?php 
             // the query
@@ -69,7 +69,7 @@ get_header(); ?>
                     <?php the_title(); ?>
 
                     <?php $image = get_field('imagem'); ?>
-                    <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
+                    <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto", "style" => "border-radius: 0 50px;" ) );  ?>
                     <?php the_field('subtitulo'); ?>
                     <?php $icon = get_field('icone'); ?>
                     <?php echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
