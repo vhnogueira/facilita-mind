@@ -65,23 +65,22 @@ get_header(); ?>
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
                 <div class="col-md-4">
-
-                    <div class="container-servico">
-
-                        <?php $image = get_field('imagem'); ?>
-                        <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto thumb-servicos" ) );  ?>
-
-                        <div class="content-servico">
-
+                    <div class="thumbnail">
+                        <div class="caption">
                             <?php the_title( '<h2 class="text-white text-uppercase">', '</h2>' ); ?>
                             <?php // the_field('subtitulo'); ?>
                             <?php $icon = get_field('icone'); ?>
                             <?php // echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
-                            
+                            <!-- <h4>Thumbnail Headline</h4>
+                            <p>short thumbnail description</p>
+                            <p><a href="" class="label label-danger" rel="tooltip" title="Zoom">Zoom</a>
+                            <a href="" class="label label-default" rel="tooltip" title="Download now">Download</a></p> -->
                         </div>
-                        
+                        <!-- <img src="http://lorempixel.com/400/300/sports/1/" alt="..."> -->
+                        <?php $image = get_field('imagem'); ?>
+                        <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto thumb-servicos" ) );  ?>
                     </div>
-                    
+
                     <a href="#">SAIBA MAIS</a>
 
                 </div>
