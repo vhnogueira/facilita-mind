@@ -31,18 +31,22 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<a href="<?php the_field('link_linkedin', 'option')?>" target="_blank"><i class="fa fa-linkedin text-light mx-1"></i></a>
 					</div>
 
-					<?php wp_nav_menu(
-					array(
-						'theme_location'  => 'secondary',
-						'container_class' => 'collapse navbar-collapse',
-						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav mx-auto text-light',
-						'fallback_cb'     => '',
-						'menu_id'         => 'footer-menu',
-						'depth'           => 2,
-						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-					)
-				); ?>
+					<nav id="main-nav" class="navbar navbar-expand-md navbar-light bg-white" aria-labelledby="main-nav-label">
+
+						<?php wp_nav_menu(
+						array(
+							'theme_location'  => 'secondary',
+							'container_class' => 'collapse navbar-collapse',
+							'container_id'    => 'navbarNavDropdown',
+							'menu_class'      => 'navbar-nav mx-auto text-light',
+							'fallback_cb'     => '',
+							'menu_id'         => 'footer-menu',
+							'depth'           => 2,
+							'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+						)
+					); ?>
+
+					</nav>
 
 				</footer><!-- #colophon -->
 
