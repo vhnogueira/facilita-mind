@@ -40,7 +40,7 @@ get_header(); ?>
 
 <div class="py-5 bg-light" id="home-3">
     <div class="container">
-        <p class="h1 text-uppercase text-center">Cadastre-se para receber todos os conteúdos</p>
+        <p class="h1 text-uppercase text-center mb-4">Cadastre-se para receber todos os conteúdos</p>
         <?php echo do_shortcode('[contact-form-7 id="40" title="Newsletter"]'); ?>
     </div>
 </div>
@@ -48,7 +48,7 @@ get_header(); ?>
 
 <div class="py-5 bg-danger" id="home-4">
     <div class="container">
-        <p class="h1 text-uppercase text-center">Como posso te ajudar</p>
+        <p class="h1 text-uppercase text-center mb-4">Como posso te ajudar</p>
         <div class="row">
             <div class="col-md-4">
 
@@ -65,7 +65,7 @@ get_header(); ?>
 
 <div class="py-5" id="home-5">
     <div class="container">
-        <p class="h1 text-uppercase text-center">Contato</p>
+        <p class="h1 text-uppercase text-center mb-4">Contato</p>
         <p class="text-center">Vou adorar falar com você!</p>
         <?php echo do_shortcode('[contact-form-7 id="35" title="Contato"]'); ?>
     </div>
@@ -73,7 +73,7 @@ get_header(); ?>
 
 <div class="py-5 bg-light" id="home-6">
     <div class="container">
-        <p class="h1 text-uppercase text-center">O que falam de mim</p>
+        <p class="h1 text-uppercase text-center mb-4">O que falam de mim</p>
         <div class="row">
         <div class="col-md-4">
             <a href="<?php the_field('link_linkedin', 'option'); ?>" class="btn btn-primary"><i class="fa fa-linkedin fa-2x"></i></a>
