@@ -26,14 +26,14 @@ get_header(); ?>
 <div class="pt-5" id="home-2">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 order-md-2">
+            <div class="col-lg-7 order-lg-2">
                 <p class="h2">SOBRE MIM</p>
                 <p class="h3">JULIANA AMARAL</p>
                 <div class="lead mb-4">
                     <?php the_field('text_sobre') ?>
                 </div>
             </div>  
-            <div class="col-md-5 order-md-1 mt-4 mt-md-0">
+            <div class="col-lg-5 order-lg-1 mt-4 mt-lg-0 align-self-end">
                 <?php $image = get_field('image_sobre'); echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto d-block" ) );  ?>    
             </div>
         </div>

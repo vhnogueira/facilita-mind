@@ -31,7 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<a href="<?php the_field('link_linkedin', 'option')?>" target="_blank"><i class="fa fa-linkedin text-light mx-1"></i></a>
 					</div>
 
-					<nav id="main-nav" class="navbar navbar-expand-md navbar-light bg-white" aria-labelledby="main-nav-label">
+					<nav id="main-nav" class="navbar navbar-expand navbar-dark" aria-labelledby="main-nav-label">
 
 						<?php wp_nav_menu(
 						array(
