@@ -69,8 +69,8 @@ get_header(); ?>
                         <div class="caption">
                             <?php $icon = get_field('icone'); ?>
                             <?php echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto icon-servicos" ) );  ?>
-                            <?php the_title( '<h2 class="text-white lato h4 text-uppercase">', '</h2>' ); ?>
-                            <?php the_field('subtitulo'); ?>
+                            <?php the_title( '<h2 class="text-white lato h4 text-uppercase mb-0">', '</h2>' ); ?>
+                            <p class="text-left text-uppercase"><?php the_field('subtitulo'); ?></p>
                             <!-- <h4>Thumbnail Headline</h4>
                             <p>short thumbnail description</p>
                             <p><a href="" class="label label-danger" rel="tooltip" title="Zoom">Zoom</a>
@@ -81,7 +81,7 @@ get_header(); ?>
                         <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto thumb-servicos" ) );  ?>
                     </div>
 
-                    <a href="#" class="text-light mt-2 text-center shadows-into-light">SAIBA MAIS</a>
+                    <a href="#" class="text-white mt-3 text-center shadows-into-light">SAIBA MAIS</a>
 
                 </div>
 
