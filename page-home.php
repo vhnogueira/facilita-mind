@@ -76,10 +76,12 @@ get_header(); ?>
         <p class="h1 text-uppercase text-center mb-4">O que falam de mim</p>
         <div class="row">
         <div class="col-md-4">
-            <a href="<?php the_field('link_linkedin', 'option'); ?>" class="btn btn-primary"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="<?php the_field('link_linkedin', 'option'); ?>" class="btn btn-primary" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
         </div>
         <div class="col-md-8">
-            <?php echo wp_get_attachment_image( '41', 'full', "", array( "class" => "img-fluid" ) );  ?>
+            <a href="<?php the_field('link_linkedin', 'option'); ?>" target="_blank">
+                <?php echo wp_get_attachment_image( '41', 'full', "", array( "class" => "img-fluid mx-auto d-block" ) );  ?>
+            </a>
         </div>
         </div>
     </div>
