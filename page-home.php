@@ -65,13 +65,14 @@ get_header(); ?>
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
                 <div class="col-md-4">
-                    
+
                     <?php the_title(); ?>
 
                     <?php the_field('subtitulo'); ?>
                     <?php the_field('icone'); ?>
                     <?php the_field('texto_botao'); ?>
-                    <?php the_field('imagem'); ?>
+                    <?php $image = get_field('imagem'); ?>
+                    <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
 
                 </div>
 
