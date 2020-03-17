@@ -45,7 +45,7 @@ get_header(); ?>
 </div>
 
 
-<div class="py-5 bg-warning" id="home-4">
+<div class="py-5 bg-danger" id="home-4">
     <div class="container">
         <p class="h1 text-uppercase text-center">Como posso te ajudar</p>
         <div class="row">
