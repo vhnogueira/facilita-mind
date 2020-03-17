@@ -66,8 +66,7 @@ get_header(); ?>
     <div class="container">
         <p class="h1 text-uppercase text-center">Contato</p>
         <p class="text-center">Vou adorar falar com você!</p>
-        <div class="row">
-        </div>
+        <?php echo do_shortcode('[contact-form-7 id="35" title="Contato"]'); ?>
     </div>
 </div>
 
