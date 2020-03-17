@@ -27,7 +27,7 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="col-md-5 text-light lead">
-                <?php echo wp_get_attachment_image( '47', 'full', "", array( "class" => "img-fluid mx-auto d-block" ) );  ?>    
+                <?php echo wp_get_attachment_image( the_field('image_sobre'), 'full', "", array( "class" => "img-fluid mx-auto d-block" ) );  ?>    
             </div>
             <div class="col-md-5 text-light lead">
                 <p class="h2">SOBRE MIM</p>
