@@ -23,17 +23,19 @@ get_header(); ?>
     </div>
 </div>
 
-<div class="py-5" id="home-2">
+<div class="pt-5" id="home-2">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 text-light lead">
-                <?php echo wp_get_attachment_image( the_field('image_sobre'), 'full', "", array( "class" => "img-fluid mx-auto d-block" ) );  ?>    
-            </div>
-            <div class="col-md-5 text-light lead">
+            <div class="col-md-5 order-md-2">
                 <p class="h2">SOBRE MIM</p>
                 <p class="h3">JULIANA AMARAL</p>
-                <?php the_field('text_sobre') ?>
+                <div class="lead">
+                    <?php the_field('text_sobre') ?>
+                </div>
             </div>  
+            <div class="col-md-5 order-md-1 mt-4 mt-md-0">
+                <?php echo wp_get_attachment_image( the_field('image_sobre'), 'full', "", array( "class" => "img-fluid mx-auto d-block" ) );  ?>    
+            </div>
         </div>
     </div>
 </div>
