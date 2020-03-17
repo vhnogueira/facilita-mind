@@ -71,7 +71,7 @@ get_header(); ?>
     </div>
 </div>
 
-<div class="py-5" id="home-6">
+<div class="py-5 bg-light" id="home-6">
     <div class="container">
         <p class="h1 text-uppercase text-center">O que falam de mim</p>
         <div class="row">
