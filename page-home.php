@@ -29,12 +29,12 @@ get_header(); ?>
             <div class="col-md-5 order-md-2">
                 <p class="h2">SOBRE MIM</p>
                 <p class="h3">JULIANA AMARAL</p>
-                <div class="lead">
+                <div class="lead mb-4">
                     <?php the_field('text_sobre') ?>
                 </div>
             </div>  
             <div class="col-md-5 order-md-1 mt-4 mt-md-0">
-                <?php echo wp_get_attachment_image( the_field('image_sobre'), 'full', "", array( "class" => "img-fluid mx-auto d-block" ) );  ?>    
+                <?php $image = get_field('image_sobre'); echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto d-block" ) );  ?>    
             </div>
         </div>
     </div>
