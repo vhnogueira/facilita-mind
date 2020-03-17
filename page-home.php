@@ -74,21 +74,15 @@ get_header(); ?>
                         <div class="content-servico">
 
                             <?php the_title( '<h2 class="text-white text-uppercase>', '</h2>' ); ?>
+                            <?php the_field('subtitulo'); ?>
                             <?php $icon = get_field('icone'); ?>
                             <?php echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
-                            <?php the_field('texto_botao'); ?>
-
+                            
                         </div>
-
+                        
                     </div>
-
-                    <div class="carousel-caption">
-                        <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-
-
-                    <?php the_field('subtitulo'); ?>
+                    
+                    <a href="#">SAIBA MAIS</a>
 
                 </div>
 
