@@ -51,7 +51,7 @@ get_header(); ?>
 <div class="py-5 bg-danger" id="home-4">
     <div class="container">
         <p class="h1 text-uppercase text-center mb-4">Como posso te ajudar</p>
-        <div class="row">
+        <div class="row justify-content-center">
             
             <?php 
             // the query
@@ -64,7 +64,7 @@ get_header(); ?>
             <?php if ( $the_query->have_posts() ) : ?>
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
-                <div class="col-md-4">
+                <div class="col-lg-4 mb-4 mb-lg-0">
                     <div class="thumbnail">
                         <div class="caption">
                             <?php the_title( '<h2 class="text-white lato h4 text-uppercase">', '</h2>' ); ?>
