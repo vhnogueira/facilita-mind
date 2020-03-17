@@ -73,10 +73,10 @@ get_header(); ?>
 
                         <div class="content-servico">
 
-                            <?php the_title( '<h2 class="text-white text-uppercase>', '</h2>' ); ?>
-                            <?php the_field('subtitulo'); ?>
+                            <?php the_title( '<h2 class="text-white text-uppercase">', '</h2>' ); ?>
+                            <?php // the_field('subtitulo'); ?>
                             <?php $icon = get_field('icone'); ?>
-                            <?php echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
+                            <?php // echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
                             
                         </div>
                         
