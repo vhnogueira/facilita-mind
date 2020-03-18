@@ -49,10 +49,8 @@ register_nav_menu('secondary',__( 'Menu Rodapé' ));
 }
 add_action( 'init', 'register_footer_menu' );
 
-function all_excerpts_get_more_link( $post_excerpt ) {
+function understrap_all_excerpts_get_more_link( $post_excerpt ) {
 
-		return $post_excerpt . ' [...]<p><a class="btn btn-primary understrap-read-more-link" href="' . get_permalink( get_the_ID() ) . '">' . __( 'Read More...',
-		'understrap' ) . '</a></p>';
+		return $post_excerpt . 'whatever you want to do here';
 	}
-
-add_filter( 'wp_trim_excerpt', 'all_excerpts_get_more_link' );
+add_filter( 'wp_trim_excerpt', 'understrap_all_excerpts_get_more_link' );
