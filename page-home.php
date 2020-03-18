@@ -45,7 +45,7 @@ get_header(); ?>
 
 <div class="py-5 bg-light" id="home-3">
     <div class="container">
-        <p class="h1 text-uppercase text-center lato mb-4">Cadastre-se para receber todos os conteúdos</p>
+        <p class="h4 text-center lato mb-4">Cadastre-se para receber todos os conteúdos</p>
         <?php echo do_shortcode('[contact-form-7 id="40" title="Newsletter"]'); ?>
     </div>
 </div>
