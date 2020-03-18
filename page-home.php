@@ -14,9 +14,9 @@ defined( 'ABSPATH' ) || exit;
 get_header(); ?>
 
 
-<?php $image_attributes = wp_get_attachment_image_src( get_field('imagem_banner') ); ?>
+<?php $banner_image = get_field('imagem_banner'); ?>
 
-<div class="py-5 min-vh-75" id="home-1"<?php if ( $image_attributes ) : ?> style="background: url('<?php echo $image_attributes[0]; ?>'); background-position: right; background-size: cover;"<?php endif; ?>>
+<div class="py-5 min-vh-75" id="home-1"<?php if ( $banner_image ) : ?> style="background: url('<?php echo $banner_image; ?>'); background-position: top right; background-size: cover;"<?php endif; ?>>
     <div class="container">
         <div class="row">
             <div class="col-md-8 text-light lead">
