@@ -16,7 +16,7 @@ get_header(); ?>
 <div class="py-5" id="home-5">
     <div class="container">
         <p class="h1 text-uppercase text-center mb-4">Contato</p>
-        <p class="text-center">Vou adorar falar com você!</p>
+        <p class="text-center mb-4">Vou adorar falar com você!</p>
         <div class="row">
             <div class="col-md-6 order-md-2">
                 <?php echo do_shortcode('[contact-form-7 id="35" title="Contato"]'); ?>
