@@ -13,11 +13,14 @@ defined( 'ABSPATH' ) || exit;
 
 get_header(); ?>
 
-<div class="py-5 bg-primary min-vh-75" id="home-1">
+
+<?php $image_attributes = wp_get_attachment_image_src( get_field('imagem_banner') ); ?>
+
+<div class="py-5 min-vh-75" id="home-1"<?php if ( $image_attributes ) : ?> style="background: url('<?php echo $image_attributes[0]; ?>'); background-position: right; background-size: cover;"<?php endif; ?>>
     <div class="container">
         <div class="row">
             <div class="col-md-8 text-light lead">
-                <?php the_field('text_banner') ?>
+                <?php the_field('texto_banner') ?>
             </div>
         </div>
     </div>
@@ -42,7 +45,7 @@ get_header(); ?>
 
 <div class="py-5 bg-light" id="home-3">
     <div class="container">
-        <p class="h1 text-uppercase text-center mb-4">Cadastre-se para receber todos os conteúdos</p>
+        <p class="h1 text-uppercase text-center lato mb-4">Cadastre-se para receber todos os conteúdos</p>
         <?php echo do_shortcode('[contact-form-7 id="40" title="Newsletter"]'); ?>
     </div>
 </div>
@@ -50,8 +53,7 @@ get_header(); ?>
 
 <div class="py-5 bg-danger" id="home-4">
     <div class="container">
-        <p class="h1 text-uppercase text-center mb-4"><span class="border-bottom">Como posso te ajudar</span></p>
-        <hr class="divider-left">
+        <p class="h1 text-uppercase text-center mb-4">Como posso te ajudar</p>
         <div class="row justify-content-center">
             
             <?php 
@@ -118,6 +120,5 @@ get_header(); ?>
         </div>
     </div>
 </div>
-
 
 <?php get_footer();
