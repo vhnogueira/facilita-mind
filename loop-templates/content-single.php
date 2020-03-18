@@ -24,7 +24,7 @@ defined( 'ABSPATH' ) || exit;
 	</header><!-- .entry-header -->
 
 	<?php echo get_the_post_thumbnail( $post->ID, 'large', array( 'class' => 'my-3' ) ); ?>
-
+ 
 	<div class="entry-content">
 
 		<?php the_content(); ?>
