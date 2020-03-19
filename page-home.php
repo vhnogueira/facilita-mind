@@ -84,7 +84,7 @@ get_header(); ?>
                         <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto thumb-servicos" ) );  ?>
                     </div>
 
-                    <a href="#" class="text-white mt-3 text-center h5">SAIBA MAIS</a>
+                    <a href="<?php the_permalink(); ?>" class="text-white mt-3 text-center h5">SAIBA MAIS</a>
 
                 </div>
 
