@@ -8,7 +8,7 @@
 
  <div class="py-5">
     <div class="container">
-        <p class="h2 text-uppercase">Como posso te ajudar</p>
+        <p class="h2 text-uppercase text-center">Como posso te ajudar</p>
         <div class="row">
 
         </div>
@@ -19,12 +19,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 order-md-2">
-                <?php the_field('titulo_o_que_esperar'); ?>
+                <p class="h3"><?php the_field('titulo_o_que_esperar'); ?></p>
                 <?php the_field('texto_o_que_esperar'); ?>
 
             </div>
             <div class="col-md-12 order-md-1">
-                <?php the_field('titulo_citacao'); ?>
+                <p class="h3"><?php the_field('titulo_citacao'); ?></p>
                 <?php the_field('citacao'); ?>
             </div>
             <div class="col-md-6 order-md-3">
@@ -40,17 +40,17 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <?php the_field('titulo_escolha_do_mentor'); ?>
-                <?php the_field('imagem_escolha_do_mentor'); ?>
+                <p class="h3"><?php the_field('titulo_escolha_do_mentor'); ?></p>
+                <?php echo wp_get_attachment_image( get_field('imagem_escolha_do_mentor'), 'full', "", array( "class" => "img-fluid" ) );  ?>
                 <?php the_field('texto_escolha_do_mentor'); ?>
 
             </div>
             <div class="col-md-6">
-                <?php the_field('titulo_beneficios'); ?>
+                <p class="h3"><?php the_field('titulo_beneficios'); ?></p>
                 <?php the_field('texto_beneficios'); ?>
             </div>
-            <div class="col-md-12">
-                <a class="btn btn-primary text-danger mt-4" href="<?php the_field('link_cta'); ?>"><?php the_field('texto_cta'); ?></a>
+            <div class="col-md-8 offset-md-2">
+                <a class="btn btn-primary text-danger mt-4 btn-lg btn-block" href="<?php the_field('link_cta'); ?>"><?php the_field('texto_cta'); ?></a>
             </div>
         </div>
     </div>
