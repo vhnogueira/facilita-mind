@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Mentoria - Template de Serviço
+ * Template Name: Palestras - Template de Serviço
  * Template Post Type: servicos
  */
   
