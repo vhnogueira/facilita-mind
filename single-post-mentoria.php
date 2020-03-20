@@ -19,7 +19,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 order-md-2">
-                <p class="h3"><?php the_field('titulo_o_que_esperar'); ?></p>
+                <p class="h3 mb-3"><?php the_field('titulo_o_que_esperar'); ?></p>
                 <?php the_field('texto_o_que_esperar'); ?>
 
             </div>
@@ -40,13 +40,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <p class="h3"><?php the_field('titulo_escolha_do_mentor'); ?></p>
-                <?php echo wp_get_attachment_image( get_field('imagem_escolha_do_mentor'), 'full', "", array( "class" => "img-fluid" ) );  ?>
+                <p class="h3 mb-3"><?php the_field('titulo_escolha_do_mentor'); ?></p>
+                <?php echo wp_get_attachment_image( get_field('imagem_escolha_do_mentor'), 'full', "", array( "class" => "img-fluid mb-3" ) );  ?>
                 <?php the_field('texto_escolha_do_mentor'); ?>
 
             </div>
             <div class="col-md-6">
-                <p class="h3"><?php the_field('titulo_beneficios'); ?></p>
+                <p class="h3 mb-3"><?php the_field('titulo_beneficios'); ?></p>
                 <?php the_field('texto_beneficios'); ?>
             </div>
             <div class="col-md-8 offset-md-2">
