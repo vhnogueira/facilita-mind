@@ -19,19 +19,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <p class="h3"><?php the_field('titulo_o_que_e'); ?></p>
+                <p class="h3 mb-3"><?php the_field('titulo_o_que_e'); ?></p>
                 <?php the_field('o_que_e'); ?>
             </div>
             <div class="col-md-6">
-                <p class="h3"><?php the_field('titulo_vantagens'); ?></p>
+                <p class="h3 mb-3"><?php the_field('titulo_vantagens'); ?></p>
                 <?php the_field('vantagens'); ?>
             </div>
             <div class="col-md-6">
-                <p class="h3"><?php the_field('titulo_destina'); ?></p>
+                <p class="h3 mb-3"><?php the_field('titulo_destina'); ?></p>
                 <?php the_field('destina'); ?>
             </div>
             <div class="col-md-6">
-                <p class="h3"><?php the_field('titulo_como_acontece'); ?></p>
+                <p class="h3 mb-3"><?php the_field('titulo_como_acontece'); ?></p>
                 <?php the_field('como_acontece'); ?>
             </div>
             <div class="col-md-6 order-md-3">

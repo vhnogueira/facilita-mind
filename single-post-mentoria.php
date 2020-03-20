@@ -24,7 +24,7 @@
 
             </div>
             <div class="col-md-12 order-md-1">
-                <p class="h3"><?php the_field('titulo_citacao'); ?></p>
+                <p class="h3 mb-3"><?php the_field('titulo_citacao'); ?></p>
                 <?php the_field('citacao'); ?>
             </div>
             <div class="col-md-6 order-md-3">
