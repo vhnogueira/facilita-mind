@@ -13,7 +13,24 @@
 
         </div>
     </div>
- </div>
+</div>
+
+<hr class="border-danger">
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h1 class="h2 lato text-uppercase">Mentoria de Carreira</h1>
+            <?php echo wp_get_attachment_image( get_field('icone_capa'), 'full', "", array( "class" => "img-fluid mb-3" ) );  ?>
+        </div>
+        
+        <div class="col-6">
+            <?php echo wp_get_attachment_image( get_field('imagem_capa'), 'full', "", array( "class" => "img-fluid mb-3" ) );  ?>
+        </div>
+    </div>
+</div>
+
+ <hr class="border-danger mt-0">
 
 <div class="pt-5 pb-lg-5">
     <div class="container">
