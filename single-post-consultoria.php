@@ -19,13 +19,13 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-6 align-self-end">
+        <div class="col-xl-4 col-6 align-self-end">
             <?php echo wp_get_attachment_image( get_field('imagem_capa'), 'full', "", array( "class" => "img-fluid" ) );  ?>
         </div>
-        <div class="col-6">
+        <div class="col-6 offset-xl-2 align-self-center text-center">
             <h1 class="h2 lato text-uppercase">Consultoria de Marketing</h1>
             <h2 class="h3 lato text-uppercase font-weight-light">Pequenas Empresas</h1>
-            <?php echo wp_get_attachment_image( get_field('icone_capa'), 'full', "", array( "class" => "img-fluid mb-3" ) );  ?>
+            <?php echo wp_get_attachment_image( get_field('icone_capa'), 'full', "", array( "class" => "img-fluid my-3", "style" => "max-width: 200px;" ) );  ?>
         </div>
         
     </div>
