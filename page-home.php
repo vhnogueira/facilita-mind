@@ -27,17 +27,17 @@ get_header(); ?>
 </div>
 
 <div class="pt-5" id="home-2">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-4 align-self-end">
-                <?php $image = get_field('image_sobre'); echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto d-block" ) );  ?>    
-            </div>
-            <div class="col-8 align-self-center">
+            <div class="col-md-5 col-xl-6 offset-xl-1 align-self-center pb-4 order-md-1">
                 <p class="h2">SOBRE MIM</p>
                 <p class="h3 mb-4 lato text-danger font-weight-bold">JULIANA AMARAL</p>
                 <div class="mb-4">
                     <?php the_field('text_sobre') ?>
                 </div>
+            <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-xl-4 align-self-end pl-md-0">
+                <?php $image = get_field('image_sobre'); echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto d-block w-100" ) );  ?>    
+            </div>
             </div>  
         </div>
     </div>
