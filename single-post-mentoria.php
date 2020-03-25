@@ -27,9 +27,9 @@
                 <p class="h3 mb-3"><?php the_field('titulo_citacao'); ?></p>
             </div>
             <div class="col-md-12 order-md-2 bg-danger py-3 my-3 text-center">
-                <i class="fa fa-1x text-dark fa-quote-left"></i>
-                <p class="h4 mb-0 lato font-weight-light text-white"><?php the_field('citacao'); ?>  </p>
-                <i class="fa fa-1x text-dark fa-quote-right"></i>
+                <i class="fa text-dark fa-quote-left mr-1" style="font-size:1.8em;"></i>
+                <p class="h4 mb-0 lato font-weight-light text-white d-inline"><?php the_field('citacao'); ?>  </p>
+                <i class="fa text-dark fa-quote-right ml-1" style="font-size:1.8em;"></i>
             </div>
             <div class="col-md-6 order-md-4">
                 <?php the_field('texto_a_mentoria'); ?>
