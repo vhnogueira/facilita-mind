@@ -34,7 +34,7 @@
   input[type=color],
   input[type=email],
   input[type=file],
-  input[type=submit],
+  // input[type=submit],
   select,
   textarea {
     @extend .form-control;
