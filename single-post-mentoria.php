@@ -57,7 +57,7 @@
 
 
 
-<div class="pb-lg-5">
+<div class="pb-5">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
