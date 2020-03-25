@@ -36,7 +36,7 @@ get_header(); ?>
                     <?php the_field('text_sobre') ?>
                 </div>
             </div>  
-            <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-xl-4 align-self-end pl-md-0">
+            <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-xl-4 align-self-end pl-0">
                 <?php $image = get_field('image_sobre'); echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto d-block w-100" ) );  ?>    
             </div>
         </div>
@@ -109,8 +109,8 @@ get_header(); ?>
     <div class="container">
         <p class="h1 text-uppercase text-center mb-4">O que falam de mim</p>
         <div class="row">
-        <div class="col-md-4">
-            <a href="<?php the_field('link_linkedin', 'option'); ?>" class="btn btn-primary" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+        <div class="col-md-4 text-center">
+            <a href="<?php the_field('link_linkedin', 'option'); ?>" class="btn btn-primary" target="_blank"><i class="fa fa-linkedin fa-2x mb-3"></i></a>
         </div>
         <div class="col-md-8 text-center">
             <a href="<?php the_field('link_linkedin', 'option'); ?>" target="_blank">
