@@ -26,10 +26,10 @@
             <div class="col-md-12 order-md-1">
                 <p class="h3 mb-3"><?php the_field('titulo_citacao'); ?></p>
             </div>
-            <div class="col-md-12 order-md-2 bg-danger py-3 my-3 font-weight-light">
-                <i class="fa fa-2x text-dark fa-quote left"></i>
-                <?php the_field('citacao'); ?>  
-                <i class="fa fa-2x text-dark fa-quote right"></i>
+            <div class="col-md-12 order-md-2 bg-danger py-3 my-3">
+                <i class="fa fa-1x text-dark fa-quote-left"></i>
+                <p class="h4 lato font-weight-light text-white"><?php the_field('citacao'); ?>  </p>
+                <i class="fa fa-1x text-dark fa-quote-right"></i>
             </div>
             <div class="col-md-6 order-md-4">
                 <?php the_field('texto_a_mentoria'); ?>
