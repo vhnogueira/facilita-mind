@@ -18,16 +18,20 @@
 <div class="py-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 order-md-2">
+            <div class="col-md-6 order-md-3">
                 <p class="h3 mb-3"><?php the_field('titulo_o_que_esperar'); ?></p>
                 <?php the_field('texto_o_que_esperar'); ?>
 
             </div>
             <div class="col-md-12 order-md-1">
                 <p class="h3 mb-3"><?php the_field('titulo_citacao'); ?></p>
-                <?php the_field('citacao'); ?>
             </div>
-            <div class="col-md-6 order-md-3">
+            <div class="col-md-12 order-md-2 bg-danger py-3 my-3 font-weight-light">
+                <i class="fa fa-2x text-dark fa-quote left"></i>
+                <?php the_field('citacao'); ?>  
+                <i class="fa fa-2x text-dark fa-quote right"></i>
+            </div>
+            <div class="col-md-6 order-md-4">
                 <?php the_field('texto_a_mentoria'); ?>
             </div>
         </div>
