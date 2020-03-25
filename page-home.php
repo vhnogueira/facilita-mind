@@ -35,10 +35,10 @@ get_header(); ?>
                 <div class="mb-4">
                     <?php the_field('text_sobre') ?>
                 </div>
+            </div>  
             <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-xl-4 align-self-end pl-md-0">
                 <?php $image = get_field('image_sobre'); echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto d-block w-100" ) );  ?>    
             </div>
-            </div>  
         </div>
     </div>
 </div>
