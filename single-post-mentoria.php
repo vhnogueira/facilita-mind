@@ -24,7 +24,7 @@
             <?php echo wp_get_attachment_image( get_field('icone_capa'), 'full', "", array( "class" => "img-fluid my-3", "style" => "max-width: 200px;" ) );  ?>
         </div>
         
-        <div class="col-6 col-xl-3 offset-xl-3 align-self-end">
+        <div class="col-6 col-lg-3 offset-lg-3 align-self-end">
             <?php echo wp_get_attachment_image( get_field('imagem_capa'), 'full', "", array( "class" => "img-fluid" ) );  ?>
         </div>
     </div>
