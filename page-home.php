@@ -19,7 +19,7 @@ get_header(); ?>
 <div class="py-5 min-vh-75" id="home-1"<?php if ( $banner_image ) : ?> style="background: url('<?php echo $banner_image; ?>'); background-position: top right; background-size: cover;"<?php endif; ?>>
     <div class="container">
         <div class="row">
-            <div class="col-md-8 text-light lead">
+            <div class="col-md-8 text-light lead text-white">
                 <?php the_field('texto_banner') ?>
             </div>
         </div>
