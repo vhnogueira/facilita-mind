@@ -6,7 +6,7 @@
  
  get_header();  ?>
 
- <div class="py-5">
+ <div class="pt-5">
     <div class="container">
         <p class="h2 text-uppercase text-center">Como posso te ajudar</p>
         <div class="row">
@@ -19,12 +19,12 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-6 text-center align-self-center">
+        <div class="col-6 text-center align-self-center">
             <h1 class="h2 lato text-uppercase">Mentoria de Carreira</h1>
-            <?php echo wp_get_attachment_image( get_field('icone_capa'), 'full', "", array( "class" => "img-fluid my-3", "style" => "max-width: 200px;" ) );  ?>
+            <?php echo wp_get_attachment_image( get_field('icone_capa'), 'full', "", array( "class" => "img-fluid my-3", "style" => "max-width: 60%;" ) );  ?>
         </div>
         
-        <div class="col-sm-6 col-lg-3 offset-lg-3 align-self-end">
+        <div class="col-6 col-lg-3 offset-lg-3 align-self-end">
             <?php echo wp_get_attachment_image( get_field('imagem_capa'), 'full', "", array( "class" => "img-fluid" ) );  ?>
         </div>
     </div>
