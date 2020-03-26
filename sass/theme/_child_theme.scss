@@ -15,12 +15,16 @@
     border-radius: 50px 0;
 }
 
-.after-title, .before-title {
+.after-title, .before-title, .after-title-contato {
     @extend .position-absolute;
 }
 
 @media (max-width: 575.98px) {
     .after-title {
+        top: -2rem;
+        right: 48%;
+    }
+    .after-title-contato {
         top: -2rem;
         right: 48%;
     }
@@ -35,6 +39,10 @@
         top: -2rem;
         right: 3rem;
     }
+    .after-title-contato {
+        top: -2rem;
+        right: 3rem;
+    }
     .before-title {
         top: -2rem;
         left: -3rem;
@@ -45,6 +53,10 @@
     .after-title {
         top: -2rem;
         right: 8rem;
+    }
+    .after-title-contato {
+        top: -2rem;
+        right: 1rem;
     }
     .before-title {
         top: -2rem;
@@ -57,6 +69,10 @@
         top: -2rem;
         right: 13rem;
     }
+    .after-title-contato {
+        top: -2rem;
+        right: 2rem;
+    }
     .before-title {
         top: -2rem;
         left: -3rem;
@@ -67,6 +83,10 @@
     .after-title {
         top: -2rem;
         right: 18rem;
+    }
+    .after-title-contato {
+        top: -2rem;
+        right: 1rem;
     }
     .before-title {
         top: -2rem;

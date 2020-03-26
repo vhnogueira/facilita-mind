@@ -114,9 +114,8 @@ get_header(); ?>
                     <div class="d-inline" style="
                                 position: absolute;
                                 width: 80px;
-                                right: -30px;
                             ">
-                            <img src="https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/after-title.png" class="after-title">
+                            <img src="https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/after-title.png" class="after-title-contato">
                     </div>
                 </div>
                 <p class="text-center">Vou adorar falar com você!</p>
