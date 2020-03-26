@@ -30,12 +30,9 @@ get_header(); ?>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-5 col-xl-6 offset-xl-1 align-self-center pb-4 order-md-1">
-                <img src="https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/before-title.png" style="
-                    width: 120px;
-                    top: -40px;
-                    position: absolute;
-                    left: -30px;
-                ">
+                <div class="d-inline position-absolute">
+                    <img src="https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/before-title.png" class="before-title">
+                </div>
                 <p class="h1 display-4 mb-0 font-weight-bold">SOBRE MIM</p>
                 <hr class="border-danger mt-0">
                 <p class="h2 mb-4 lato text-danger font-weight-bold">JULIANA AMARAL</p>
@@ -63,10 +60,11 @@ get_header(); ?>
         <div class="row justify-content-center">
             <div class="col-md-12 text-center">
                 <p class="h1 text-uppercase text-center mb-4 font-weight-bold display-4 d-inline-block">Como posso te ajudar</p>
-                <img src="https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/after-title-2.png" style="
-                    width: 120px;
+                <div class="d-inline" style="
                     position: absolute;
                 ">
+                <img src="https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/after-title-2.png" class="after-title-right">
+                </div>
             </div>
             
             <?php 
