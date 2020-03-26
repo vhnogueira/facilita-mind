@@ -30,8 +30,15 @@ get_header(); ?>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-5 col-xl-6 offset-xl-1 align-self-center pb-4 order-md-1">
-                <p class="h2">SOBRE MIM</p>
-                <p class="h3 mb-4 lato text-danger font-weight-bold">JULIANA AMARAL</p>
+                <img src="https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/before-title.png" style="
+                    width: 120px;
+                    top: -40px;
+                    position: absolute;
+                    left: -30px;
+                ">
+                <p class="h1 display-4 mb-0 font-weight-bold">SOBRE MIM</p>
+                <hr class="border-danger mt-0">
+                <p class="h2 mb-4 lato text-danger font-weight-bold">JULIANA AMARAL</p>
                 <div class="mb-4">
                     <?php the_field('text_sobre') ?>
                 </div>
@@ -54,6 +61,12 @@ get_header(); ?>
 <div class="py-5 bg-danger" id="home-4">
     <div class="container">
         <p class="h1 text-uppercase text-center mb-4">Como posso te ajudar</p>
+        <img src="https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/after-title.png" style="
+            width: 120px;
+            top: -40px;
+            position: absolute;
+            left: -30px;
+        ">
         <div class="row justify-content-center">
             
             <?php 
