@@ -63,7 +63,7 @@ get_header(); ?>
                 <div class="d-inline" style="
                     position: absolute;
                 ">
-                <img src="https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/after-title-2.png" class="after-title-right">
+                <img src="https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/after-title-2.png" class="after-title">
                 </div>
             </div>
             
