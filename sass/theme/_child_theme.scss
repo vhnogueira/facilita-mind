@@ -16,7 +16,7 @@
 }
 
 .after-title, .before-title {
-    @extend .position-relative;
+    @extend .position-absolute;
 }
 
 @media (max-width: 575.98px) {
@@ -37,7 +37,7 @@
     }
     .before-title {
         top: -2rem;
-        left: 3rem;
+        left: -3rem;
     }
 }
 
@@ -48,7 +48,7 @@
     }
     .before-title {
         top: -2rem;
-        left: 8rem;
+        left: -3rem;
     }
 }
 
@@ -59,7 +59,7 @@
     }
     .before-title {
         top: -2rem;
-        left: 13rem;
+        left: -3rem;
     }
 }
 
@@ -70,6 +70,6 @@
     }
     .before-title {
         top: -2rem;
-        left: 18rem;
+        left: -3rem;
     }
 }

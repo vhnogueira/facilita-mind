@@ -109,7 +109,7 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p class="h1 display-4 text-uppercase text-center mb-4 font-weight-bold d-inline-block">Contato</p>
+                <p class="h1 display-4 text-uppercase text-center mb-4 font-weight-bold d-inline-block text-center">Contato</p>
                 <div class="d-inline" style="
                             position: absolute;
                             width: 80px;
