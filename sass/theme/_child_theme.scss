@@ -15,7 +15,7 @@
     border-radius: 50px 0;
 }
 
-.after-title {
+.after-title, .before-title {
     @extend .position-relative;
 }
 
@@ -37,7 +37,7 @@
     }
     .before-title {
         top: -2rem;
-        left: 48%;
+        left: 3rem;
     }
 }
 
@@ -48,7 +48,7 @@
     }
     .before-title {
         top: -2rem;
-        left: 48%;
+        left: 8rem;
     }
 }
 
@@ -59,7 +59,7 @@
     }
     .before-title {
         top: -2rem;
-        left: 48%;
+        left: 13rem;
     }
 }
 
@@ -70,6 +70,6 @@
     }
     .before-title {
         top: -2rem;
-        left: 48%;
+        left: 18rem;
     }
 }
