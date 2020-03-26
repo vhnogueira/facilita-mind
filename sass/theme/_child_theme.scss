@@ -15,18 +15,47 @@
     border-radius: 50px 0;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 575.98px) {
     .after-title {
-        width: 120px;
-        position: relative;
-        top: -2.5rem;
-        right: 3rem;
-
+        top: -2rem;
+        right: 48%;
     }
     .before-title {
-        width: 120px;
-        top: -40px;
-        position: relative;
-        left: -30px;
+    }
+}
+
+@media (min-width: 576px) {
+    .after-title {
+        top: -2rem;
+        right: 3rem;
+    }
+    .before-title {
+    }
+}
+
+@media (min-width: 768px) {
+    .after-title {
+        top: -2rem;
+        right: 8rem;
+    }
+    .before-title {
+    }
+}
+
+@media (min-width: 992px) {
+    .after-title {
+        top: -2rem;
+        right: 12rem;
+    }
+    .before-title {
+    }
+}
+
+@media (min-width: 1200px) {
+    .after-title {
+        top: -2rem;
+        right: 18rem;
+    }
+    .before-title {
     }
 }

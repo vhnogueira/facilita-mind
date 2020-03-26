@@ -62,6 +62,8 @@ get_header(); ?>
                 <p class="h1 text-uppercase text-center mb-4 font-weight-bold display-4 d-inline-block">Como posso te ajudar</p>
                 <div class="d-inline" style="
                     position: absolute;
+                    width: 80px;
+                    right: -30px;
                 ">
                 <img src="https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/after-title-2.png" class="after-title">
                 </div>
