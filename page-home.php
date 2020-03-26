@@ -109,13 +109,15 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p class="h1 display-4 text-uppercase text-center mb-4 font-weight-bold d-inline-block text-center">Contato</p>
-                <div class="d-inline" style="
-                            position: absolute;
-                            width: 80px;
-                            right: -30px;
-                        ">
-                        <img src="https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/after-title.png" class="after-title">
+                <div class="text-center">
+                    <p class="h1 display-4 text-uppercase text-center mb-4 font-weight-bold d-inline-block text-center">Contato</p>
+                    <div class="d-inline" style="
+                                position: absolute;
+                                width: 80px;
+                                right: -30px;
+                            ">
+                            <img src="https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/after-title.png" class="after-title">
+                    </div>
                 </div>
                 <p class="text-center">Vou adorar falar com você!</p>
                 <?php echo do_shortcode('[contact-form-7 id="35" title="Contato"]'); ?>
