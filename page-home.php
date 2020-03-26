@@ -130,7 +130,7 @@ get_header(); ?>
         <p class="h1 text-uppercase text-center mb-4">O que falam de mim</p>
         <div class="row">
         <div class="col-md-4 text-center">
-            <a href="<?php the_field('link_linkedin', 'option'); ?>" class="btn btn-primary" target="_blank"><i class="fa fa-linkedin fa-2x mb-3"></i></a>
+            <a href="<?php the_field('link_linkedin', 'option'); ?>" class="btn btn-primary mb-3" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
         </div>
         <div class="col-md-8 text-center">
             <a href="<?php the_field('link_linkedin', 'option'); ?>" target="_blank">
