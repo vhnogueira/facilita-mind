@@ -60,14 +60,14 @@ get_header(); ?>
 
 <div class="py-5 bg-danger" id="home-4">
     <div class="container">
-        <p class="h1 text-uppercase text-center mb-4">Como posso te ajudar</p>
-        <img src="https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/after-title.png" style="
-            width: 120px;
-            top: -40px;
-            position: absolute;
-            left: -30px;
-        ">
         <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <p class="h1 text-uppercase text-center mb-4 font-weight-bold display-4 d-inline-block">Como posso te ajudar</p>
+                <img src="https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/after-title-2.png" style="
+                    width: 120px;
+                    position: absolute;
+                ">
+            </div>
             
             <?php 
             // the query
@@ -87,12 +87,7 @@ get_header(); ?>
                             <?php echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto icon-servicos" ) );  ?>
                             <?php the_title( '<h2 class="text-white lato h4 text-uppercase mb-0">', '</h2>' ); ?>
                             <p class="text-center text-uppercase"><?php the_field('subtitulo'); ?></p>
-                            <!-- <h4>Thumbnail Headline</h4>
-                            <p>short thumbnail description</p>
-                            <p><a href="" class="label label-danger" rel="tooltip" title="Zoom">Zoom</a>
-                            <a href="" class="label label-default" rel="tooltip" title="Download now">Download</a></p> -->
                         </div>
-                        <!-- <img src="http://lorempixel.com/400/300/sports/1/" alt="..."> -->
                         <?php $image = get_field('imagem'); ?>
                         <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto thumb-servicos" ) );  ?>
                     </div>
@@ -112,7 +107,7 @@ get_header(); ?>
 
 <div class="py-5" id="home-5">
     <div class="container">
-        <p class="h1 text-uppercase text-center mb-4">Contato</p>
+        <p class="h1 display-4 text-uppercase text-center mb-4 font-weight-bold">Contato</p>
         <p class="text-center">Vou adorar falar com você!</p>
         <?php echo do_shortcode('[contact-form-7 id="35" title="Contato"]'); ?>
     </div>
