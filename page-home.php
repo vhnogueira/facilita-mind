@@ -138,7 +138,7 @@ get_header(); ?>
 </div>
 
 <div class="py-5 bg-light" id="home-6">
-    <div class="container">
+    <div class="container-fluid">
         <p class="h1 text-uppercase text-center mb-4">O que falam de mim</p>
         <div class="row">
             <div class="col-md-12">
