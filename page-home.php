@@ -237,7 +237,7 @@ get_header(); ?>
                         items: 2
                     },
                     1170: {
-                        items: 2
+                        items: 3
                     }
                 }
             });
