@@ -147,7 +147,7 @@ get_header(); ?>
                     <!--TESTIMONIAL 1 -->
                     <div class="item">
                         <div class="shadow-effect">
-                            <img class="img-circle" src="https://i.imgur.com/dU0PpiQ.jpg" alt="">
+                            <img class="rounded-circle img-fluid" src="https://i.imgur.com/dU0PpiQ.jpg" alt="">
                             <p>A GSK contou com a Amo para um projeto audacioso, unindo a GSK Brasil, GSK matriz em Londres e a Amo, que
                                 gerou um resultado surpreendente. Como todo projeto inovador, foi desafiador e a Juliana foi uma
                                 parceira incrível. Sem dúvida uma profissional preparada e completa.
@@ -160,7 +160,7 @@ get_header(); ?>
                     <!--TESTIMONIAL 2 -->
                     <div class="item">
                         <div class="shadow-effect">
-                            <img class="img-circle" src="https://i.imgur.com/GPQZ54N.jpg" alt="">
+                            <img class="rounded-circle img-fluid" src="https://i.imgur.com/GPQZ54N.jpg" alt="">
                             <p>Trabalhar com a Juliana é uma experiência. Além de ser um exemplo para todos que trabalham com ela, a
                                 Juliana é diferente. Ela tem um olhar para as novidades do mercado, e faz questão de dividir tudo com
                                 seu time. Um estilo de gestão completamente fora do padrão nos dias atuais, a Juliana se preoc...
@@ -174,7 +174,7 @@ get_header(); ?>
                     <!--TESTIMONIAL 3 -->
                     <div class="item">
                         <div class="shadow-effect">
-                            <img class="img-circle" src="https://i.imgur.com/Xm9xcZG.jpg" alt="">
+                            <img class="rounded-circle img-fluid" src="https://i.imgur.com/Xm9xcZG.jpg" alt="">
                             <p>Conheci Juliana estagiária e ela já demonstrava seu talento e competência. Anos depois tive a
                                 oportunidade de reencontra-la e sua trajetória profissional e pessoal só fizeram aumentar a competência
                                 e talento!!! Parabéns pela profissional que se tornou!
@@ -187,7 +187,7 @@ get_header(); ?>
                     <!--TESTIMONIAL 4 -->
                     <div class="item">
                         <div class="shadow-effect">
-                            <img class="img-circle" src="https://i.imgur.com/TPlmAiR.jpg" alt="">
+                            <img class="rounded-circle img-fluid" src="https://i.imgur.com/TPlmAiR.jpg" alt="">
                             <p>Juliana é uma profissional inspiradora: criativa e inovadora. Como gestora, aplica-se dedicadamente ao
                                 desenvolvimento de sua equipe.</p>
                 
