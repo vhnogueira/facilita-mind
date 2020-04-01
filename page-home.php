@@ -201,15 +201,15 @@ get_header(); ?>
                     <!--END OF TESTIMONIAL 4 -->
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <!-- <div class="col-md-4 text-center">
                 <a href="<?php the_field('link_linkedin', 'option'); ?>" class="btn btn-primary mb-3" target="_blank"><i
                         class="fa fa-linkedin fa-2x"></i></a>
-            </div>
-            <div class="col-md-8 text-center">
+            </div> -->
+            <!-- <div class="col-md-8 text-center">
                 <a href="<?php the_field('link_linkedin', 'option'); ?>" target="_blank">
                     <?php echo wp_get_attachment_image( '41', 'full', "", array( "class" => "img-fluid mx-auto" ) );  ?>
                 </a>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
