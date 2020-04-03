@@ -16,7 +16,7 @@
 }
 
 .after-title, .before-title, .after-title-contato {
-    // @extend .position-absolute;
+	@extend .position-relative;
 }
 
 .after-title-contato::after {
