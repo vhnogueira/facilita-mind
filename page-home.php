@@ -37,9 +37,7 @@ get_header(); ?>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-5 col-xl-6 offset-xl-1 align-self-center pb-4 order-md-1">
-                <div class="text-center">
-                    <p class="h1 display-4 mb-0 font-weight-bold before-title d-inline-block">SOBRE MIM</p>
-                </div>
+                <p class="h1 display-4 mb-0 font-weight-bold before-title d-inline-block">SOBRE MIM</p>
                 <hr class="border-danger mt-0">
                 <p class="h2 mb-4 lato text-danger font-weight-bold">JULIANA AMARAL</p>
                 <div class="mb-4">
