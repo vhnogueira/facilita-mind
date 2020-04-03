@@ -79,7 +79,7 @@ get_header(); ?>
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
             <div class="col-lg-4 mb-4 mb-lg-0">
-                <div class="thumbnail mb-2">
+                <div class="thumbnail position-relative mb-2">
                     <div class="caption">
                         <?php $icon = get_field('icone'); ?>
                         <?php echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto icon-servicos" ) );  ?>
