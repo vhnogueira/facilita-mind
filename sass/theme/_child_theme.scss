@@ -15,10 +15,20 @@
     border-radius: 50px 0;
 }
 
-.after-title, .before-title, .after-title-contato {
+.after-title-ajudar, .before-title, .after-title-contato {
 	@extend .position-relative;
 }
 
+.before-title::after {
+        content: '';
+        width: 63%;
+        height: 30px;
+        position: absolute;
+        background: url(https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/before-title.png) no-repeat right;
+        background-size: contain;
+        top: -20px;
+        right: -30px;
+    }
 .after-title-contato::after {
         content: '';
         width: 63%;
@@ -29,31 +39,16 @@
         top: -20px;
         right: -30px;
     }
-
-@media (max-width: 575.98px) {
-    .after-title-contato::after {
-        // width: 63%;
-        // height: 30px;
-        // top: -20px;
-        // right: -30px;
+.after-title-ajudar::after {
+        content: '';
+        width: 63%;
+        height: 30px;
+        position: absolute;
+        background: url(https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/after-title-2.png) no-repeat right;
+        background-size: contain;
+        top: -20px;
+        right: -30px;
     }
-}
-
-@media (min-width: 576px) {
-    
-}
-
-@media (min-width: 768px) {
-    
-}
-
-@media (min-width: 992px) {
-    
-}
-
-@media (min-width: 1200px) {
-    
-}
 
 // Testimonials section
 
