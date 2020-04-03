@@ -85,13 +85,13 @@ get_header(); ?>
                         <?php echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto icon-servicos" ) );  ?>
                         <?php the_title( '<h2 class="text-white lato h4 text-uppercase mb-0">', '</h2>' ); ?>
                         <p class="text-center text-uppercase"><?php the_field('subtitulo'); ?></p>
+                        <div class="text-center">
+                            <a href="<?php the_permalink(); ?>" class="btn btn-light my-2">SAIBA MAIS</a>
+                        </div>
                     </div>
                     <?php $image = get_field('imagem'); ?>
                     <?php echo wp_get_attachment_image( $image, 'full', "", array( "class" => "img-fluid mx-auto thumb-servicos" ) );  ?>
                 </div>
-
-                <a href="<?php the_permalink(); ?>" class="text-white mt-3 text-center h5">SAIBA MAIS</a>
-
             </div>
 
             <?php endwhile; ?>
