@@ -16,82 +16,43 @@
 }
 
 .after-title, .before-title, .after-title-contato {
-    @extend .position-absolute;
+    // @extend .position-absolute;
 }
 
+.after-title-contato::after {
+        content: '';
+        width: 63%;
+        height: 30px;
+        position: absolute;
+        background: url(https://agencia915.com.br/clientes/facilita/wp-content/uploads/2020/03/after-title-2-1.png) no-repeat;
+        background-size: contain;
+        top: -20px;
+        right: -30px;
+    }
+
 @media (max-width: 575.98px) {
-    .after-title {
-        top: -2rem;
-        right: 94%;
-    }
-    .after-title-contato {
-        top: -2rem;
-        right: 48%;
-    }
-    .before-title {
-        top: -2rem;
-        left: 48%;
+    .after-title-contato::after {
+        // width: 63%;
+        // height: 30px;
+        // top: -20px;
+        // right: -30px;
     }
 }
 
 @media (min-width: 576px) {
-    .after-title {
-        top: -2rem;
-        right: 3rem;
-    }
-    .after-title-contato {
-        top: -2rem;
-        right: 3rem;
-    }
-    .before-title {
-        top: -2rem;
-        left: -3rem;
-    }
+    
 }
 
 @media (min-width: 768px) {
-    .after-title {
-        top: -2rem;
-        right: 8rem;
-    }
-    .after-title-contato {
-        top: -2rem;
-        right: 1rem;
-    }
-    .before-title {
-        top: -2rem;
-        left: -3rem;
-    }
+    
 }
 
 @media (min-width: 992px) {
-    .after-title {
-        top: -2rem;
-        right: 13rem;
-    }
-    .after-title-contato {
-        top: -2rem;
-        right: 2rem;
-    }
-    .before-title {
-        top: -2rem;
-        left: -3rem;
-    }
+    
 }
 
 @media (min-width: 1200px) {
-    .after-title {
-        top: -2rem;
-        right: 18rem;
-    }
-    .after-title-contato {
-        top: -2rem;
-        right: 1rem;
-    }
-    .before-title {
-        top: -2rem;
-        left: -3rem;
-    }
+    
 }
 
 // Testimonials section
@@ -125,7 +86,7 @@
 		#customers-testimonials .item {
 		    text-align: center;
 		    padding: 50px;
-				margin-bottom:80px;
+            // margin-bottom:80px;
 		    opacity: .2;
 		    -webkit-transform: scale3d(0.8, 0.8, 1);
 		    transform: scale3d(0.8, 0.8, 1);
