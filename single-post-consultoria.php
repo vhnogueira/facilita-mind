@@ -26,7 +26,7 @@
         <div class="col-7 col-lg-8 align-self-center text-center">
             <h1 class="h2 lato text-uppercase">Consultoria de Marketing</h1>
             <h2 class="h3 lato text-uppercase font-weight-light">Pequenas Empresas</h1>
-            <?php echo wp_get_attachment_image( get_field('icone_capa'), 'full', "", array( "class" => "img-fluid my-3", "style" => "max-width: 50%;" ) );  ?>
+            <?php echo wp_get_attachment_image( get_field('icone_capa'), 'full', "", array( "class" => "img-fluid my-3", "style" => "max-width: 80px;" ) );  ?>
         </div>
     </div>
 </div>

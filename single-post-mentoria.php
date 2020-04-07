@@ -21,7 +21,7 @@
     <div class="row">
         <div class="col-6 text-center align-self-center">
             <h1 class="h2 lato text-uppercase">Mentoria de Carreira</h1>
-            <?php echo wp_get_attachment_image( get_field('icone_capa'), 'full', "", array( "class" => "img-fluid my-3", "style" => "max-width: 60%;" ) );  ?>
+            <?php echo wp_get_attachment_image( get_field('icone_capa'), 'full', "", array( "class" => "img-fluid my-3", "style" => "max-width: 80px;" ) );  ?>
         </div>
         
         <div class="col-6 col-lg-3 offset-lg-3 align-self-end">
