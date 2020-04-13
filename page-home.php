@@ -39,9 +39,10 @@ get_header(); ?>
             <div class="col-md-5 col-xl-6 offset-xl-1 align-self-center pb-4 order-md-1">
                 <p class="h1 display-4 mb-0 font-weight-bold before-title d-inline-block">SOBRE MIM</p>
                 <hr class="border-danger mt-0">
-                <p class="h2 mb-4 lato text-danger font-weight-bold">JULIANA AMARAL</p>
+                <p class="h2 mb-4 lato text-danger font-weight-bold"><?php the_field('nome_sobre'); ?></p>
                 <div class="mb-4">
                     <?php the_field('text_sobre') ?>
+                    <a href="<?php the_field('link_linkedin_pessoal')?>" class="btn btn-primary" target="_blank"><i class="fa fa-linkedin mb-2"></i></a>
                 </div>
             </div>
             <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-xl-4 align-self-end pl-0">
@@ -53,7 +54,7 @@ get_header(); ?>
 
 <div class="py-5 bg-light" id="home-3">
     <div class="container">
-        <p class="h4 text-center lato mb-4">Cadastre-se para receber todos os conteúdos</p>
+        <p class="h4 text-center lato mb-4">Inscreva-se para receber conteúdos exclusivos</p>
         <?php echo do_shortcode('[contact-form-7 id="40" title="Newsletter"]'); ?>
     </div>
 </div>
@@ -83,7 +84,7 @@ get_header(); ?>
                     <div class="caption">
                         <?php $icon = get_field('icone'); ?>
                         <?php echo wp_get_attachment_image( $icon, 'full', "", array( "class" => "img-fluid mx-auto icon-servicos" ) );  ?>
-                        <?php the_title( '<h2 class="text-white lato h4 text-uppercase mb-0">', '</h2>' ); ?>
+                        <h2 class="text-white lato h4 text-uppercase mb-0<?php if (empty(get_field('subtitulo')) : echo ' mb-4 pb-3'; endif; ?>"><?php the_title(); ?></h2>
                         <p class="text-center text-uppercase"><?php the_field('subtitulo'); ?> </p>
                         <div class="text-center">
                             <a href="<?php the_permalink(); ?>" class="btn btn-light my-2">SAIBA MAIS</a>
