@@ -42,7 +42,7 @@ get_header(); ?>
                 <p class="h2 mb-4 lato text-danger font-weight-bold"><?php the_field('nome_sobre'); ?></p>
                 <div class="mb-4">
                     <?php the_field('text_sobre') ?>
-                    <a href="<?php the_field('link_linkedin_pessoal')?>" target="_blank" class="text-primary"><span class="p-2 rounded-circle bg-primary"><i class="fa fa-linkedin mb-2 text-white"></i></span> Veja meu perfil no LinkedIn</a>
+                    <a href="<?php the_field('link_linkedin_pessoal')?>" target="_blank" class="text-primary"><span class="bg-primary p-2 mr-2 text-white rounded"><i class="fa fa-linkedin mb-2 text-white"></i></span>Veja meu perfil no LinkedIn</a>
                 </div>
             </div>
             <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-xl-4 align-self-end pl-0">
@@ -74,7 +74,8 @@ get_header(); ?>
             $the_query = new WP_Query( array(
                 'post_type' => 'servicos',
                 'posts_per_page' => -1,
-                'post__not_in' => $postsout,
+                // 'post__not_in' => $postsout,
+                'post__in' => -1,
             )); 
             ?>
 
@@ -108,8 +109,8 @@ get_header(); ?>
 
 <div class="py-5" id="home-5">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
+        <div class="row justify-content-center">
+            <div class="col-md-7">
                 <div class="text-center">
                     <p class="h1 display-4 text-uppercase text-center mb-4 font-weight-bold d-inline-block text-center after-title-contato position-relative">
                         Contato</p>
