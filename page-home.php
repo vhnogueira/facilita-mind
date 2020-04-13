@@ -42,7 +42,7 @@ get_header(); ?>
                 <p class="h2 mb-4 lato text-danger font-weight-bold"><?php the_field('nome_sobre'); ?></p>
                 <div class="mb-4">
                     <?php the_field('text_sobre') ?>
-                    <a href="<?php the_field('link_linkedin_pessoal')?>" class="btn btn-primary" target="_blank"><i class="fa fa-linkedin mb-2"></i></a>
+                    <a href="<?php the_field('link_linkedin_pessoal')?>" target="_blank"><span class="p-2 rounded-circle bg-primary"><i class="fa fa-linkedin mb-2"></i></span> Veja meu perfil no LinkedIn</a>
                 </div>
             </div>
             <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-xl-4 align-self-end pl-0">
