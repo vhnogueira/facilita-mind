@@ -74,7 +74,7 @@ get_header(); ?>
             $the_query = new WP_Query( array(
                 'post_type' => 'servicos',
                 'posts_per_page' => -1,
-                'post__in' => array(-1),
+                'post__not_in' => $postsout,
             )); 
             ?>
 
