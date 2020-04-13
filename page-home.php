@@ -69,10 +69,12 @@ get_header(); ?>
             </div>
 
             <?php 
+            $postsout = get_field('servicos_out');
             // the query
             $the_query = new WP_Query( array(
                 'post_type' => 'servicos',
                 'posts_per_page' => -1,
+                'post__not_in' => $postsout,
             )); 
             ?>
 
